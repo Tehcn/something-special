@@ -17,5 +17,5 @@ function randCOlor() {
   
   var hexValue = `#${hexVal1}${hexVal2}${hexVal3}${hexVal4}${hexVal5}${hexVal6}`;
   
-  $("body").css("color", hexValue);
+  $("body").css("background-color", hexValue);
 }
