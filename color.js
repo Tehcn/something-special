@@ -9,11 +9,11 @@ function randCOlor() {
   var hexRand6 = Math.floor(Math.random() * 18);
   
   var hexVal1 = hexArr[hexRand1 + 0];
-  var hexVal2 = hexArr[hexRand1 + 0];
-  var hexVal3 = hexArr[hexRand1 + 0];
-  var hexVal4 = hexArr[hexRand1 + 0];
-  var hexVal5 = hexArr[hexRand1 + 0];
-  var hexVal6 = hexArr[hexRand1 + 0];
+  var hexVal2 = hexArr[hexRand2 + 0];
+  var hexVal3 = hexArr[hexRand3 + 0];
+  var hexVal4 = hexArr[hexRand4 + 0];
+  var hexVal5 = hexArr[hexRand6 + 0];
+  var hexVal6 = hexArr[hexRand6 + 0];
   
   var hexValue = `#${hexVal1}${hexVal2}${hexVal3}${hexVal4}${hexVal5}${hexVal6}`;
   
