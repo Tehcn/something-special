@@ -1,20 +1,44 @@
 <!DOCTYPE html>
+
 <html>
+
 	<head>
+
 		<title>A Special Thank You</title>
+		
+		<script src = "https://code.jquery.com/jquery-3.1.1.js"></script>
+
 	</head>
+
 	<body>
-		<marquee><h1>Thank You!</h1></marquee>
+
+		<h1>Thank You <span class = "teacher"></span>!</h1>
+		<h3>For Everything You Do!</h3>
+
 		<style>
+
 			body {
+
 				background-color: purple;
+
 				color: white;
+
 				padding: 1em;
+
 				font-family: Arial, sans-serif;
+				
+				text-align: center;
+
 			}
-			marquee {
-				font-weight: bolder;
-			}
+
 		</style>
+		
+		<script>
+			var tName = prompt("Please enter your LAST name (ie: Mrs. Teacher)");
+			
+			$(".teacher").append(tName);
+		</script>
+
 	</body>
+
 </html>
