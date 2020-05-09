@@ -2,33 +2,19 @@
 <html>
 	<head>
 		<title>A Special Thank You</title>
-		<script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src = ""></script>
-		<link rel = "stylesheet" href = "style.css">
 	</head>
 	<body>
 		<marquee><h1>Thank You!</h1></marquee>
-		<script>setInterval(randColor, 3000);
-function randCOlor() {
-  var hexArr = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f","g"];
-  var hexRand1 = Math.floor(Math.random() * 18);
-  var hexRand2 = Math.floor(Math.random() * 18);
-  var hexRand3 = Math.floor(Math.random() * 18);
-  var hexRand4 = Math.floor(Math.random() * 18);
-  var hexRand5 = Math.floor(Math.random() * 18);
-  var hexRand6 = Math.floor(Math.random() * 18);
-  
-  var hexVal1 = hexArr[hexRand1 + 0];
-  var hexVal2 = hexArr[hexRand2 + 0];
-  var hexVal3 = hexArr[hexRand3 + 0];
-  var hexVal4 = hexArr[hexRand4 + 0];
-  var hexVal5 = hexArr[hexRand6 + 0];
-  var hexVal6 = hexArr[hexRand6 + 0];
-  
-  var hexValue = `#${hexVal1}${hexVal2}${hexVal3}${hexVal4}${hexVal5}${hexVal6}`;
-  
-  $("body").css("background-color", hexValue);
-}
-		</script>
+		<style>
+			body {
+				background-color: purple;
+				color: white;
+				padding: 1em;
+				font-family: Arial, sans-serif;
+			}
+			marquee {
+				font-weight: bolder;
+			}
+		</style>
 	</body>
 </html>
